@@ -26,7 +26,7 @@ export default {
     created () {
     this.moment = moment;
 
-   this.today =moment().format("MM/DD/YYYY")
+    this.today =moment("Thu Mar 17 2022 23:59:25 GMT+0700").format("MM/DD/YYYY")
 
     },
     methods:{

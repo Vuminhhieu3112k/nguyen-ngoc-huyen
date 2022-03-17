@@ -32,7 +32,7 @@ export default {
   },
   created(){
     this.moment = moment;
-    this.love = moment().format("DD")
+    this.love = moment("Thu Mar 17 2022 23:59:25 GMT+0700").format("DD")
   },
   methods:{
     ishange(data){

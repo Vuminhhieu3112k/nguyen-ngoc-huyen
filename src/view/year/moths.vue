@@ -23,7 +23,7 @@ export default {
     },
     created () {
     this.moment = moment;
-    this.love = moment().add(-2020,'y').add(-6,'months').add(-26,'d').add(-21,'hours').format("DD MM YYYY hh:mm:ss")
+    this.love = moment("Thu Mar 17 2022 23:59:25 GMT+0700").add(-2020,'y').add(-6,'months').add(-26,'d').add(-21,'hours').format("DD MM YYYY hh:mm:ss")
     this.yaers =this.love.substring(8,10)
     this.moth= parseInt(this.love.substring(3,5))  + parseInt(this.love.substring(8,10))*12
 

@@ -17,7 +17,7 @@ export default {
         return{
             love:0,
             text: false,
-            today: moment().format("MM/DD/YYYY/HH/mm"),
+            today: moment("Thu Mar 17 2022 23:59:25 GMT+0700").format("MM/DD/YYYY/HH/mm"),
                 
         }
     },
@@ -26,7 +26,7 @@ export default {
     this.inDays(this.today,"06/26/2020/21/30")
 
     setInterval(()=>{
-       this.today= moment().format("MM/DD/YYYY/HH/mm")
+       this.today= moment("Thu Mar 17 2022 23:59:25 GMT+0700").format("MM/DD/YYYY/HH/mm")
     },1000)
     setTimeout(()=>{
         this.text = true
