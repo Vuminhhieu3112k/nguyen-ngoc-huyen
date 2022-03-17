@@ -9,6 +9,9 @@
     "start": "node server.js",
     "heroku-postbuild": "npm run build"
   },
+  "engines":{
+    "node": "14.17.3"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
